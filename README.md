@@ -2,16 +2,35 @@
 
 Crimson Desert Review Wiki is a public hub for players looking for the latest information about **Crimson Desert review, release date, trailer, gameplay, PS5 performance, multiplayer, co-op, map, weapons, armor, and wiki details**.
 
-## Main Pages
-- Main site: https://crimsondesert.site
-- Review: https://crimsondesert.site/review
-- Release Date: https://crimsondesert.site/release-date
-- What Is Crimson Desert: https://crimsondesert.site/what-is-crimson-desert
-- Trailer: https://crimsondesert.site/trailer
-- PS5 Performance: https://crimsondesert.site/ps5-performance
-- Wiki: https://crimsondesert.site/wiki
-- Map: https://crimsondesert.site/map
+<h2>Main Pages</h2>
 
+<ul>
+  <li>
+    Main Site:
+    <a href="https://crimsondesert.site" target="_blank">
+      https://crimsondesert.site
+    </a>
+  </li>
+
+  <li>
+    Guide:
+    <a href="https://crimsondesert.site/guide" target="_blank">
+      https://crimsondesert.site/guide
+    </a>
+  </li>
+
+  <li>
+    Performance:
+    <a href="https://crimsondesert.site/performance" target="_blank">
+      https://crimsondesert.site/performance
+    </a>
+  </li>
+
+  <li>Review (Coming Soon)</li>
+  <li>Release Date (Coming Soon)</li>
+  <li>Wiki (Coming Soon)</li>
+  <li>Map (Coming Soon)</li>
+</ul>
 ## What is Crimson Desert?
 Crimson Desert is an open-world action RPG known for cinematic combat, large-scale exploration, and story-driven gameplay.
 
