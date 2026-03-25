@@ -13,7 +13,7 @@ Crimson Desert Review Wiki is a public hub for players looking for the latest in
   </li>
   
   <li>
-    Main Site:
+    crimson desert review Site:
     <a href="https://crimsondesert.site/crimson-desert-review" target="_blank">
       https://crimsondesert.site/crimson-desert-review
     </a>
