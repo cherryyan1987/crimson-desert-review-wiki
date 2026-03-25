@@ -1,2 +1,53 @@
-# crimson-desert-review-wiki
-Crimson Desert review, release date, trailer, wiki, gameplay, PS5 performance, map, weapons, armor, multiplayer, co-op, and guide hub.
+# Crimson Desert Review Wiki
+
+Crimson Desert Review Wiki is a public hub for players looking for the latest information about **Crimson Desert review, release date, trailer, gameplay, PS5 performance, multiplayer, co-op, map, weapons, armor, and wiki details**.
+
+## Main Pages
+- Main site: https://crimsondesert.site
+- Review: https://crimsondesert.site/review
+- Release Date: https://crimsondesert.site/release-date
+- What Is Crimson Desert: https://crimsondesert.site/what-is-crimson-desert
+- Trailer: https://crimsondesert.site/trailer
+- PS5 Performance: https://crimsondesert.site/ps5-performance
+- Wiki: https://crimsondesert.site/wiki
+- Map: https://crimsondesert.site/map
+
+## What is Crimson Desert?
+Crimson Desert is an open-world action RPG known for cinematic combat, large-scale exploration, and story-driven gameplay.
+
+## Is Crimson Desert Free?
+Crimson Desert is typically discussed as a premium game rather than a free-to-play title. Players often search for pricing, editions, and platform availability.
+
+## Is Crimson Desert Multiplayer or Co-op?
+Many players search for Crimson Desert multiplayer and co-op details, along with gameplay features, combat systems, and exploration mechanics.
+
+## Release Date and Review
+Search interest around Crimson Desert often focuses on:
+- release date
+- review
+- metacritic
+- opencritic
+- gameplay trailer
+- PS5 performance
+
+## Wiki Topics
+This project also covers common wiki-style topics such as:
+- map
+- fast travel locations
+- best weapons
+- best armor
+- bosses
+- puzzles
+- early gear
+
+## Why this GitHub project exists
+This repository acts as a search-friendly public landing page that helps users quickly discover the main Crimson Desert product pages.
+
+## Images
+![Crimson Desert Hero](./assets/hero.jpg)
+![Crimson Desert Review](./assets/review.jpg)
+![Crimson Desert Wiki](./assets/wiki.jpg)
+![Crimson Desert Map](./assets/map.jpg)
+
+## Open the Main Site
+👉 https://crimsondesert.site
