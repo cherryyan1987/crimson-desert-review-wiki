@@ -4,20 +4,49 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Crimson Desert Review, Release Date, Wiki & Gameplay</title>
+  <title>Crimson Desert Review, Release Date, Wiki & Gameplay Guide</title>
+  <meta name="description" content="Crimson Desert review, release date, trailer, gameplay, PS5 performance, multiplayer, co-op, map, weapons, armor, and wiki hub." />
+  <meta name="keywords" content="Crimson Desert review, Crimson Desert release date, what is Crimson Desert, Crimson Desert wiki, Crimson Desert map, Crimson Desert gameplay, Crimson Desert PS5 performance, Crimson Desert multiplayer, Crimson Desert co-op" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://hub.crimsondesert.site/" />
 
-  <meta name="description" content="Crimson Desert review, release date, trailer, gameplay, PS5 performance, multiplayer, map, weapons, armor, and wiki hub." />
-  <meta name="keywords" content="Crimson Desert review, release date, what is crimson desert, crimson desert map, weapons, armor, ps5 performance, multiplayer, coop" />
+  <meta property="og:title" content="Crimson Desert Review, Release Date, Wiki & Gameplay Guide" />
+  <meta property="og:description" content="Find Crimson Desert review, release date, gameplay, PS5 performance, map, weapons, armor, multiplayer, and wiki information." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://hub.crimsondesert.site/" />
+  <meta property="og:image" content="https://hub.crimsondesert.site/12.avif" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Crimson Desert Review, Release Date, Wiki & Gameplay Guide" />
+  <meta name="twitter:description" content="Review, release date, gameplay, PS5 performance, map, weapons, armor, and wiki hub." />
+  <meta name="twitter:image" content="https://hub.crimsondesert.site/12.avif" />
 
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: #0b0b0f;
-      color: white;
+      background: #08090d;
+      color: #ffffff;
+      line-height: 1.6;
     }
 
-    a { text-decoration: none; }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .container {
+      width: min(1160px, 92%);
+      margin: 0 auto;
+    }
 
     .hero {
       position: relative;
@@ -25,176 +54,432 @@
       display: flex;
       align-items: center;
       overflow: hidden;
+      background: #000;
     }
 
-    video {
+    .hero video,
+    .hero-fallback {
       position: absolute;
+      inset: 0;
       width: 100%;
       height: 100%;
       object-fit: cover;
-      top: 0;
-      left: 0;
+    }
+
+    .hero-fallback {
       z-index: 0;
     }
 
-    .overlay {
-      position: absolute;
-      inset: 0;
-      background: rgba(0,0,0,0.6);
+    .hero video {
       z-index: 1;
     }
 
-    .content {
-      position: relative;
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(180deg, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0.68) 100%),
+        radial-gradient(circle at center, rgba(255,70,70,0.12), rgba(0,0,0,0) 45%);
       z-index: 2;
-      max-width: 1100px;
-      margin: auto;
-      padding: 40px;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 3;
+      padding: 80px 0;
+      max-width: 980px;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.14);
+      color: #ffd6d6;
+      font-size: 14px;
+      margin-bottom: 20px;
     }
 
     h1 {
-      font-size: 56px;
-      line-height: 1.1;
+      margin: 0 0 20px;
+      font-size: clamp(42px, 7vw, 84px);
+      line-height: 1.04;
+      letter-spacing: -1.4px;
     }
 
     .accent {
-      color: #ff4d4d;
+      color: #ff5454;
+    }
+
+    .hero p {
+      max-width: 900px;
+      margin: 0 0 28px;
+      font-size: 20px;
+      color: #e0e0e0;
+    }
+
+    .cta-row {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-bottom: 18px;
     }
 
     .btn {
       display: inline-block;
-      margin-top: 20px;
-      padding: 16px 28px;
-      background: #ff4d4d;
-      border-radius: 10px;
-      color: white;
-      font-weight: bold;
+      padding: 16px 24px;
+      border-radius: 14px;
+      font-weight: 700;
+      transition: transform 0.2s ease, opacity 0.2s ease, border-color 0.2s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      opacity: 0.96;
+    }
+
+    .btn-primary {
+      background: linear-gradient(90deg, #ff4d4d, #ff6b57);
+      color: #fff;
+      box-shadow: 0 12px 32px rgba(255, 80, 80, 0.28);
+    }
+
+    .btn-secondary {
+      color: #fff;
+      border: 1px solid rgba(255,255,255,0.18);
+      background: rgba(255,255,255,0.06);
+    }
+
+    .sub-links {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 28px;
+    }
+
+    .chip-link {
+      display: inline-block;
+      padding: 10px 14px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.12);
+      color: #f2f2f2;
+      font-size: 14px;
     }
 
     section {
-      padding: 80px 20px;
-      max-width: 1100px;
-      margin: auto;
+      padding: 84px 0;
     }
 
-    .grid {
+    .section-title {
+      margin: 0 0 12px;
+      font-size: 36px;
+      line-height: 1.15;
+    }
+
+    .section-desc {
+      margin: 0 0 30px;
+      color: #bbbbbb;
+      max-width: 860px;
+      font-size: 17px;
+    }
+
+    .grid-3 {
       display: grid;
-      grid-template-columns: repeat(3,1fr);
-      gap: 20px;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
     }
 
     .card {
+      background: linear-gradient(180deg, rgba(255,255,255,0.055), rgba(255,255,255,0.035));
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 22px;
+      padding: 24px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.18);
+    }
+
+    .card h3 {
+      margin: 0 0 10px;
+      font-size: 24px;
+    }
+
+    .card p {
+      margin: 0 0 16px;
+      color: #c9c9c9;
+    }
+
+    .card a {
+      color: #ff8080;
+      font-weight: 700;
+    }
+
+    .shot-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+    }
+
+    .shot {
+      overflow: hidden;
+      border-radius: 18px;
+      border: 1px solid rgba(255,255,255,0.08);
       background: #111;
-      padding: 20px;
-      border-radius: 12px;
     }
 
-    img {
+    .shot img {
+      display: block;
       width: 100%;
-      border-radius: 12px;
+      height: 100%;
+      object-fit: cover;
     }
 
-    @media(max-width:900px){
-      .grid {
+    .faq-list {
+      display: grid;
+      gap: 16px;
+    }
+
+    .faq-item {
+      padding: 22px;
+      border-radius: 18px;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .faq-item h3 {
+      margin: 0 0 8px;
+      font-size: 20px;
+    }
+
+    .faq-item p {
+      margin: 0;
+      color: #cbcbcb;
+    }
+
+    .faq-item a {
+      color: #ff8a8a;
+      font-weight: 700;
+    }
+
+    .final-cta {
+      text-align: center;
+      padding: 36px 22px;
+      border-radius: 28px;
+      background: linear-gradient(180deg, rgba(255,90,90,0.11), rgba(255,255,255,0.03));
+      border: 1px solid rgba(255,255,255,0.09);
+    }
+
+    .final-cta h2 {
+      margin: 0 0 12px;
+      font-size: 40px;
+    }
+
+    .final-cta p {
+      margin: 0 auto 24px;
+      max-width: 760px;
+      color: #c8c8c8;
+    }
+
+    footer {
+      padding: 28px 0 40px;
+      text-align: center;
+      color: #9f9f9f;
+      font-size: 14px;
+    }
+
+    @media (max-width: 900px) {
+      .grid-3,
+      .shot-grid {
         grid-template-columns: 1fr;
       }
-      h1 { font-size: 36px; }
+
+      .hero p {
+        font-size: 18px;
+      }
+
+      .section-title {
+        font-size: 30px;
+      }
+
+      .final-cta h2 {
+        font-size: 32px;
+      }
     }
   </style>
-</head>
 
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebSite",
+    "name":"Crimson Desert Review Wiki",
+    "url":"https://hub.crimsondesert.site/",
+    "description":"Crimson Desert review, release date, gameplay, PS5 performance, map, weapons, armor, multiplayer, and wiki hub."
+  }
+  </script>
+</head>
 <body>
 
-<!-- HERO -->
-<div class="hero">
+  <header class="hero">
+    <img class="hero-fallback" src="12.avif" alt="Crimson Desert gameplay screenshot" />
 
-  <video autoplay muted loop playsinline>
-    <source src="./open.mp4" type="video/mp4">
-  </video>
+    <video autoplay muted loop playsinline poster="12.avif">
+      <source src="open.mp4" type="video/mp4" />
+    </video>
 
-  <div class="overlay"></div>
+    <div class="hero-overlay"></div>
 
-  <div class="content">
-    <h1>
-      Crimson Desert <span class="accent">Review, Wiki & Guide</span>
-    </h1>
+    <div class="container hero-content">
+      <div class="eyebrow">Crimson Desert Search Hub</div>
 
-    <p>
-      Find Crimson Desert review, release date, gameplay, PS5 performance, multiplayer, map, weapons, armor, and wiki information.
-    </p>
+      <h1>
+        Crimson Desert <span class="accent">Review, Wiki & Guide</span>
+      </h1>
 
-    <a class="btn" href="https://crimsondesert.site" target="_blank">
-      🚀 Open CrimsonDesert.site
-    </a>
-  </div>
+      <p>
+        Find Crimson Desert review, release date, gameplay, PS5 performance, multiplayer, map, weapons, armor, and wiki information in one place.
+      </p>
 
-</div>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="https://crimsondesert.site" target="_blank" rel="noopener">
+          🚀 Open CrimsonDesert.site
+        </a>
+        <a class="btn btn-secondary" href="https://crimsondesert.site/review" target="_blank" rel="noopener">
+          ⭐ Read Review
+        </a>
+      </div>
 
-<!-- ENTRY -->
-<section>
-
-  <h2>Explore Crimson Desert</h2>
-
-  <div class="grid">
-
-    <div class="card">
-      <h3>Review</h3>
-      <p>Latest review, rating, and gameplay impressions.</p>
-      <a href="https://crimsondesert.site/review" target="_blank">Open →</a>
+      <div class="sub-links">
+        <a class="chip-link" href="https://crimsondesert.site/release-date" target="_blank" rel="noopener">Release Date</a>
+        <a class="chip-link" href="https://crimsondesert.site/what-is-crimson-desert" target="_blank" rel="noopener">What Is Crimson Desert</a>
+        <a class="chip-link" href="https://crimsondesert.site/wiki" target="_blank" rel="noopener">Wiki Guide</a>
+        <a class="chip-link" href="https://crimsondesert.site/map" target="_blank" rel="noopener">Map & Locations</a>
+      </div>
     </div>
+  </header>
 
-    <div class="card">
-      <h3>Release Date</h3>
-      <p>Launch status, platforms, and version updates.</p>
-      <a href="https://crimsondesert.site/release-date" target="_blank">Open →</a>
+  <section>
+    <div class="container">
+      <h2 class="section-title">Explore Crimson Desert</h2>
+      <p class="section-desc">
+        This public hub is designed to help players quickly reach the most useful Crimson Desert pages, including review coverage, release status, gameplay information, map details, weapons, armor, and wiki resources.
+      </p>
+
+      <div class="grid-3">
+        <div class="card">
+          <h3>Crimson Desert Review</h3>
+          <p>See the latest review coverage, rating discussion, gameplay impressions, and early verdicts.</p>
+          <a href="https://crimsondesert.site/review" target="_blank" rel="noopener">Read Review →</a>
+        </div>
+
+        <div class="card">
+          <h3>Release Date & Platforms</h3>
+          <p>Check launch status, supported platforms, version updates, and current release details.</p>
+          <a href="https://crimsondesert.site/release-date" target="_blank" rel="noopener">Check Release Date →</a>
+        </div>
+
+        <div class="card">
+          <h3>Wiki, Map & Gameplay</h3>
+          <p>Explore Crimson Desert wiki info, map coverage, weapons, armor, bosses, and gameplay systems.</p>
+          <a href="https://crimsondesert.site/wiki" target="_blank" rel="noopener">Open Wiki →</a>
+        </div>
+      </div>
     </div>
+  </section>
 
-    <div class="card">
-      <h3>What Is Crimson Desert</h3>
-      <p>Overview, gameplay, and core features explained.</p>
-      <a href="https://crimsondesert.site/what-is-crimson-desert" target="_blank">Open →</a>
+  <section>
+    <div class="container">
+      <h2 class="section-title">Gameplay Screenshots</h2>
+      <p class="section-desc">
+        Visual previews from the Crimson Desert experience, covering combat, exploration, world design, and gameplay atmosphere.
+      </p>
+
+      <div class="shot-grid">
+        <div class="shot">
+          <img src="12.avif" alt="Crimson Desert gameplay preview" />
+        </div>
+        <div class="shot">
+          <img src="2.avif" alt="Crimson Desert world and map preview" />
+        </div>
+        <div class="shot">
+          <img src="4.avif" alt="Crimson Desert combat screenshot" />
+        </div>
+        <div class="shot">
+          <img src="6.avif" alt="Crimson Desert cinematic scene" />
+        </div>
+      </div>
     </div>
+  </section>
 
-  </div>
+  <section>
+    <div class="container">
+      <h2 class="section-title">FAQ</h2>
+      <p class="section-desc">
+        Quick answers to common Crimson Desert searches, with direct paths to deeper pages on the main site.
+      </p>
 
-</section>
+      <div class="faq-list">
+        <div class="faq-item">
+          <h3>What is Crimson Desert?</h3>
+          <p>
+            Crimson Desert is widely discussed as an open-world action RPG with cinematic combat, exploration, and story-driven gameplay. See the full overview on the
+            <a href="https://crimsondesert.site/what-is-crimson-desert" target="_blank" rel="noopener">What Is Crimson Desert page</a>.
+          </p>
+        </div>
 
-<!-- SCREENSHOTS -->
-<section>
+        <div class="faq-item">
+          <h3>When is the Crimson Desert release date?</h3>
+          <p>
+            For the latest release status, platform information, and update notes, visit the
+            <a href="https://crimsondesert.site/release-date" target="_blank" rel="noopener">Release Date page</a>.
+          </p>
+        </div>
 
-  <h2>Gameplay & Screenshots</h2>
+        <div class="faq-item">
+          <h3>Where can I read a Crimson Desert review?</h3>
+          <p>
+            The latest review discussion, gameplay impressions, and score-related analysis are collected on the
+            <a href="https://crimsondesert.site/review" target="_blank" rel="noopener">Crimson Desert Review page</a>.
+          </p>
+        </div>
 
-  <div class="grid">
+        <div class="faq-item">
+          <h3>Does Crimson Desert have a map, weapons, and armor guides?</h3>
+          <p>
+            Yes. You can explore map coverage, location info, weapons, armor, and other gameplay resources through the
+            <a href="https://crimsondesert.site/wiki" target="_blank" rel="noopener">Wiki section</a>
+            and
+            <a href="https://crimsondesert.site/map" target="_blank" rel="noopener">Map page</a>.
+          </p>
+        </div>
 
-    <img src="./1.avif" alt="Crimson Desert gameplay">
-    <img src="./2.avif" alt="Crimson Desert map">
-    <img src="./3.avif" alt="Crimson Desert combat">
+        <div class="faq-item">
+          <h3>Is Crimson Desert multiplayer or co-op?</h3>
+          <p>
+            Players often search for multiplayer and co-op details alongside gameplay systems and combat structure. For broader gameplay context, start from the
+            <a href="https://crimsondesert.site/review" target="_blank" rel="noopener">review and gameplay hub</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  </div>
+  <section>
+    <div class="container">
+      <div class="final-cta">
+        <h2>Ready to Explore Crimson Desert?</h2>
+        <p>
+          Open the full site for review updates, release date coverage, gameplay pages, wiki resources, map information, and deeper Crimson Desert guides.
+        </p>
+        <a class="btn btn-primary" href="https://crimsondesert.site" target="_blank" rel="noopener">
+          Go to CrimsonDesert.site
+        </a>
+      </div>
+    </div>
+  </section>
 
-</section>
-
-<!-- FAQ -->
-<section>
-
-  <h2>FAQ</h2>
-
-  <div class="card">
-    <h3>What is Crimson Desert?</h3>
-    <p>Crimson Desert is an open-world action RPG with cinematic combat and exploration.</p>
-  </div>
-
-  <div class="card">
-    <h3>Is Crimson Desert free?</h3>
-    <p>Crimson Desert is generally considered a premium game rather than free-to-play.</p>
-  </div>
-
-  <div class="card">
-    <h3>Is Crimson Desert multiplayer or co-op?</h3>
-    <p>Players often search for multiplayer and co-op features alongside gameplay systems.</p>
-  </div>
-
-</section>
+  <footer>
+    © 2026 Crimson Desert Review Wiki · Public GitHub landing page for Crimson Desert search discovery.
+  </footer>
 
 </body>
 </html>
