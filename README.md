@@ -100,14 +100,5 @@ This project also covers common wiki-style topics such as:
 This repository acts as a search-friendly public landing page that helps users quickly discover the main Crimson Desert product pages.
 
 
-<h2>Images</h2>
-
-<p>
-  <img src="12.avif" alt="Crimson Desert Hero" width="220">
-  <img src="2.avif" alt="Crimson Desert Review" width="220">
-  <img src="4.avif" alt="Crimson Desert Wiki" width="220">
-  <img src="6.avif" alt="Crimson Desert Map" width="220">
-</p>
-
 ## Open the Main Site
 👉 https://crimsondesert.site
