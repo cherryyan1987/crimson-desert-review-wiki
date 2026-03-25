@@ -38,6 +38,36 @@ Crimson Desert Review Wiki is a public hub for players looking for the latest in
   <li>Wiki (Coming Soon)</li>
   <li>Map (Coming Soon)</li>
 </ul>
+## What You Can Find Here
+
+- Crimson Desert review scores and player feedback
+- Steam rating and launch sentiment changes
+- Beginner guide and early game setup
+- Walkthroughs, builds, and exploration help
+- Performance fixes, FPS tips, and setup help
+
+## Official Links
+
+- Official Website: https://crimsondesert.pearlabyss.com/
+- Developer: https://www.pearlabyss.com/
+
+## Images
+
+<p>
+  <a href="https://crimsondesert.site/crimson-desert-review" target="_blank">
+    <img src="12.avif" width="220" />
+  </a>
+  <a href="https://crimsondesert.site/guide" target="_blank">
+    <img src="2.avif" width="220" />
+  </a>
+  <a href="https://crimsondesert.site/performance" target="_blank">
+    <img src="4.avif" width="220" />
+  </a>
+  <a href="https://crimsondesert.site" target="_blank">
+    <img src="6.avif" width="220" />
+  </a>
+</p>
+
 ## What is Crimson Desert?
 Crimson Desert is an open-world action RPG known for cinematic combat, large-scale exploration, and story-driven gameplay.
 
