@@ -1,72 +1,200 @@
-<section style="
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  background: radial-gradient(circle at top, rgba(255,0,0,0.2), #0b0b0f);
-  color: white;
-  font-family: Arial, sans-serif;
-">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <div style="max-width: 1100px; margin: auto; padding: 40px; display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center;">
+  <title>Crimson Desert Review, Release Date, Wiki & Gameplay</title>
 
-    <!-- 左侧内容 -->
-    <div>
-      <h1 style="font-size: 56px; line-height: 1.1; margin-bottom: 20px;">
-        Crimson Desert <span style="color:#ff4d4d;">Review, Wiki & Guide</span>
-      </h1>
+  <meta name="description" content="Crimson Desert review, release date, trailer, gameplay, PS5 performance, multiplayer, map, weapons, armor, and wiki hub." />
+  <meta name="keywords" content="Crimson Desert review, release date, what is crimson desert, crimson desert map, weapons, armor, ps5 performance, multiplayer, coop" />
 
-      <p style="font-size: 18px; color: #ccc; margin-bottom: 30px;">
-        Find Crimson Desert review, release date, trailer, PS5 performance, multiplayer details, map, weapons, armor, and gameplay guides — all in one place.
-      </p>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b0b0f;
+      color: white;
+    }
 
-      <!-- CTA 按钮 -->
-      <div style="display:flex; gap:15px; flex-wrap:wrap;">
+    a { text-decoration: none; }
 
-        <!-- 主按钮（核心转化） -->
-        <a href="https://crimsondesert.site"
-           target="_blank"
-           style="
-           background: linear-gradient(90deg,#ff4d4d,#ff7a59);
-           padding: 16px 26px;
-           border-radius: 12px;
-           font-weight: bold;
-           text-decoration: none;
-           color: white;
-           font-size: 16px;
-           box-shadow: 0 10px 30px rgba(255,0,0,0.3);
-        ">
-          🚀 Open CrimsonDesert.site
-        </a>
+    .hero {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+    }
 
-        <!-- 次按钮（增加点击率） -->
-        <a href="https://crimsondesert.site/review"
-           target="_blank"
-           style="
-           border: 1px solid rgba(255,255,255,0.2);
-           padding: 16px 24px;
-           border-radius: 12px;
-           text-decoration: none;
-           color: white;
-           font-size: 16px;
-        ">
-          ⭐ Read Review
-        </a>
+    video {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      top: 0;
+      left: 0;
+      z-index: 0;
+    }
 
-      </div>
+    .overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.6);
+      z-index: 1;
+    }
 
-      <!-- 小提示（提高点击） -->
-      <p style="margin-top:20px; color:#aaa; font-size:14px;">
-        Updated with latest review scores, release status, and gameplay insights.
-      </p>
+    .content {
+      position: relative;
+      z-index: 2;
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px;
+    }
 
+    h1 {
+      font-size: 56px;
+      line-height: 1.1;
+    }
+
+    .accent {
+      color: #ff4d4d;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 16px 28px;
+      background: #ff4d4d;
+      border-radius: 10px;
+      color: white;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 80px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 20px;
+    }
+
+    .card {
+      background: #111;
+      padding: 20px;
+      border-radius: 12px;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 12px;
+    }
+
+    @media(max-width:900px){
+      .grid {
+        grid-template-columns: 1fr;
+      }
+      h1 { font-size: 36px; }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+
+  <video autoplay muted loop playsinline>
+    <source src="./assets/open.mp4" type="video/mp4">
+  </video>
+
+  <div class="overlay"></div>
+
+  <div class="content">
+    <h1>
+      Crimson Desert <span class="accent">Review, Wiki & Guide</span>
+    </h1>
+
+    <p>
+      Find Crimson Desert review, release date, gameplay, PS5 performance, multiplayer, map, weapons, armor, and wiki information.
+    </p>
+
+    <a class="btn" href="https://crimsondesert.site" target="_blank">
+      🚀 Open CrimsonDesert.site
+    </a>
+  </div>
+
+</div>
+
+<!-- ENTRY -->
+<section>
+
+  <h2>Explore Crimson Desert</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <h3>Review</h3>
+      <p>Latest review, rating, and gameplay impressions.</p>
+      <a href="https://crimsondesert.site/review" target="_blank">Open →</a>
     </div>
 
-    <!-- 右侧图片 -->
-    <div>
-      <img src="./assets/hero.jpg"
-           alt="Crimson Desert gameplay preview"
-           style="width:100%; border-radius:20px; box-shadow:0 20px 60px rgba(0,0,0,0.5);">
+    <div class="card">
+      <h3>Release Date</h3>
+      <p>Launch status, platforms, and version updates.</p>
+      <a href="https://crimsondesert.site/release-date" target="_blank">Open →</a>
+    </div>
+
+    <div class="card">
+      <h3>What Is Crimson Desert</h3>
+      <p>Overview, gameplay, and core features explained.</p>
+      <a href="https://crimsondesert.site/what-is-crimson-desert" target="_blank">Open →</a>
     </div>
 
   </div>
+
 </section>
+
+<!-- SCREENSHOTS -->
+<section>
+
+  <h2>Gameplay & Screenshots</h2>
+
+  <div class="grid">
+
+    <img src="./assets/1.avif" alt="Crimson Desert gameplay">
+    <img src="./assets/2.avif" alt="Crimson Desert map">
+    <img src="./assets/3.avif" alt="Crimson Desert combat">
+
+  </div>
+
+</section>
+
+<!-- FAQ -->
+<section>
+
+  <h2>FAQ</h2>
+
+  <div class="card">
+    <h3>What is Crimson Desert?</h3>
+    <p>Crimson Desert is an open-world action RPG with cinematic combat and exploration.</p>
+  </div>
+
+  <div class="card">
+    <h3>Is Crimson Desert free?</h3>
+    <p>Crimson Desert is generally considered a premium game rather than free-to-play.</p>
+  </div>
+
+  <div class="card">
+    <h3>Is Crimson Desert multiplayer or co-op?</h3>
+    <p>Players often search for multiplayer and co-op features alongside gameplay systems.</p>
+  </div>
+
+</section>
+
+</body>
+</html>
